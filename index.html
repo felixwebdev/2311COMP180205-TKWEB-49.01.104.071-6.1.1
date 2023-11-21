@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ cá vui nhộn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="images/favio.ico"/>
+</head>
+
+
+
+<body>
+    <div id="header">
+        <h1>Aquarium</h1>
+        <sup style="line-height: 50px;">&copy; Copyright by Trần Quốc Khánh</sup>
+        <ul class="icon">
+            <li class="icon-items">HTML <i class="ti-html5"></i></li>
+            <li class="icon-items">CSS <i class="ti-css3"></i></li>
+        </ul>
+    </div>  
+
+    <div id="phanthan">
+        <div id="left-side">
+            <h3 class="back-tieude">BACKGROUND <i class="ti-image"></i></h3>
+            <center>
+                <div class="btn">
+                <button id="btn1"></button>
+                <button id="btn2"></button>
+                <button id="btn3"></button>
+            </div>
+        </center>
+        <div class="music">
+            <h3>MUSIC <i class="ti-music-alt"></i></h3>
+            <audio id="myAudio">
+            <source src="audio1.mp3" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ âm thanh HTML5.
+            </source>
+            </audio>
+            <center>
+            <button id="prevButton"><i class="fa-solid fa-backward"></i></button>
+            <button  id="toggleButton"><i class="fa-solid fa-volume-high fa-beat" onclick="changeIcon(this)"></i></button>
+            <button id="nextButton"><i class="fa-solid fa-forward"></i></button>
+            </center>
+        </div>
+        
+        </div>
+
+        <div id="content">
+            <div id="shark"><img src="images/shark.png" width="auto" height="auto"></div>
+            <div id="driver1"><img src="images/diver1.png" alt=""></div>
+            <div id="driver2"><img src="images/diver2.png" alt=""></div>
+            <div id="driver3"><img src="images/diver3.png" alt=""></div>
+            <div id="goldfish"><img src="images/goldFishSchool.png" width="auto" height="auto" alt=""></div>
+            <div id="faintschool"><img src="images/faintSchool.png" alt=""></div>
+            <div id="turtle"><img src="images/turtle.png" alt=""></div>
+        </div>
+    </div>
+    <script src="change.js"></script>
+</body>
+</html>
